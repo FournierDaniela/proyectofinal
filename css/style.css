@@ -2,13 +2,16 @@ body {
     font-family: "Josefin Sans", sans-serif;
     background-color: #f7eade !important;
   }
-  .menu-conteiner {
-    padding: 15px 90px !important;
-    background-color: #f7eade !important;
+  .menu-conteiner{
     font-family: "Josefin Sans", sans-serif !important;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
+    background-color: #f7eade !important;
+  }
+  .container{
+    background-color: #f7eade !important;
   }
   .menu-conteiner li {
+    background-color: #f7eade !important;
     padding: 8px 25px !important;
     margin: auto;
   }
@@ -37,7 +40,7 @@ body {
     color: #737373;
     font-family: "Josefin Slab", serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 300%;
   }
   
   /*Article tyc*/
@@ -99,7 +102,7 @@ body {
     color: #737373;
     font-family: "Josefin Slab", serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 150%;
   }
   
   .medios-container {
@@ -122,5 +125,13 @@ body {
     text-align: center;
     text-decoration: none;
     color: #6a7885;
+  }
+
+  .row{
+    margin: auto;
+    padding-top: 20px;
+  }
+  .columnas{
+    padding-top: 10px;
   }
 /*# sourceMappingURL=style.css.map */
