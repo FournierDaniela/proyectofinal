@@ -1,0 +1,27 @@
+@import '../base/mixind.scss';
+
+/*footer*/
+.registrate{
+    background-color: #ead3dc;
+    margin: 30px 15px;
+    padding: 20px;
+    border-radius: 5px;
+    h1,h6{
+        @include letter(0, 40px, #737373)
+    }
+}
+.medios-container{
+    background-color: #ead3dc;
+    .medios-container-second{
+        @include flex(30px,  #ead3cd);
+        .medios{
+            margin: auto;
+        }
+    }
+}
+.tyc, .tyc a{
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #6a7885;
+}

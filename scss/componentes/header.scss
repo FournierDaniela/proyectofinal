@@ -1,0 +1,22 @@
+@import '../base/mixind.scss';
+
+.menu-conteiner{
+    padding: 15px 90px !important;
+    background-color: #f7eade !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    text-transform: uppercase;
+    li{
+     padding: 8px 25px !important;
+     margin: auto;
+    }
+}
+.redes-conteiner{
+    @include flex (5px, #ead3cd);
+    .redes{
+        @include flex (0, #ead3cd)
+          
+    }
+    .instagram{
+    margin-left: 60px;
+    }
+}

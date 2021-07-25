@@ -1,3 +1,126 @@
-
-
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #f7eade !important;
+  }
+  .menu-conteiner {
+    padding: 15px 90px !important;
+    background-color: #f7eade !important;
+    font-family: "Josefin Sans", sans-serif !important;
+    text-transform: uppercase;
+  }
+  .menu-conteiner li {
+    padding: 8px 25px !important;
+    margin: auto;
+  }
+  .redes-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #ead3cd;
+    font-family: "Josefin Slab", serif;
+  }
+  .redes-conteiner .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: #ead3cd;
+    font-family: "Josefin Slab", serif;
+  }
+  .redes-conteiner .instagram {
+    margin-left: 60px;
+  }
+  /*Article index*/
+.destacados {
+    padding: 40px;
+    color: #737373;
+    font-family: "Josefin Slab", serif;
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  /*Article tyc*/
+  .tyc-container {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .pdp-container {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  /*Article talles*/
+  .table-container {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .table-container table {
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    border: solid #737373 5px;
+  }
+  .table-container table tr, .table-container table td {
+    border: solid #000 2px;
+  }
+  
+  /*Article contactos*/
+  .contactos-container {
+    padding: top(60px);
+    color: #737373;
+    font-family: "Josefin Slab", serif;
+    text-align: center;
+    font-size: 10px;
+  }
+  .contactos-container h2, .contactos-container h3 {
+    font-family: "Josefin Slab", serif;
+    font-size: 24px;
+    color: #6a7885;
+  }
+  .contactos-container .email-container {
+    padding: 60px;
+  }
+  .contactos-container .email-container .email {
+    padding: 5px;
+  }
+  /*footer*/
+.registrate {
+    background-color: #ead3dc;
+    margin: 30px 15px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .registrate h1, .registrate h6 {
+    padding: 0;
+    color: #737373;
+    font-family: "Josefin Slab", serif;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .medios-container {
+    background-color: #ead3dc;
+  }
+  .medios-container .medios-container-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #ead3cd;
+    font-family: "Josefin Slab", serif;
+  }
+  .medios-container .medios-container-second .medios {
+    margin: auto;
+  }
+  
+  .tyc, .tyc a {
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #6a7885;
+  }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+@mixin container {
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+@mixin flex ($padding, $bcolor) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $padding;
+    background-color: $bcolor;
+    font-family: "Josefin Slab", serif;
+}
+
+
+@mixin letter ($padding, $fsize, $color) {
+   padding: $padding;
+   color: $color;
+   font-family: "Josefin Slab", serif;
+   text-align: center;
+   font-size: $fsize;
+}
