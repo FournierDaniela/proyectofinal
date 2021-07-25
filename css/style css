@@ -79,7 +79,7 @@ body {
   text-align: center;
   font-size: 10px;
 }
-.contactos-container h2, .contactos-container h3 {
+.contactos-container h2, .contactos-container h3, .contactos-container p {
   font-family: "Josefin Slab", serif;
   font-size: 24px;
   color: #6a7885;
@@ -87,7 +87,7 @@ body {
 .contactos-container .email-container {
   padding: 60px;
 }
-.contactos-container .email-container .email {
+.contactos-container .email {
   padding: 5px;
 }
 

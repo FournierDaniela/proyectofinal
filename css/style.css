@@ -70,21 +70,21 @@ body {
   
   /*Article contactos*/
   .contactos-container {
-    padding: top(60px);
+    padding-top: 60px;
     color: #737373;
     font-family: "Josefin Slab", serif;
     text-align: center;
     font-size: 10px;
   }
-  .contactos-container h2, .contactos-container h3 {
-    font-family: "Josefin Slab", serif;
+  .contactos-container h2, .contactos-container h3, .contactos-container p{
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     color: #6a7885;
   }
-  .contactos-container .email-container {
+ .email-container {
     padding: 60px;
   }
-  .contactos-container .email-container .email {
+  .email {
     padding: 5px;
   }
   /*footer*/
@@ -94,7 +94,7 @@ body {
     padding: 20px;
     border-radius: 5px;
   }
-  .registrate h1, .registrate h6 {
+  .registrate h2, .registrate h6 {
     padding: 0;
     color: #737373;
     font-family: "Josefin Slab", serif;

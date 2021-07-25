@@ -31,15 +31,15 @@
   /*Article contactos*/
   .contactos-container{
       @include letter(top(60px), 10px, #737373);
-        h2,h3{
+        h2,h3,p{
             font-family: "Josefin Slab", serif;
             font-size: 24px;
             color: #6a7885;
         }
         .email-container{
             padding: 60px;
-            .email{
-                padding: 5px;
-            }
         }
+        .email{
+         padding: 5px;
+        } 
   }
